@@ -1,0 +1,148 @@
+
+.button1{
+    background-image: linear-gradient(orange, red);
+    color:white;
+    padding:20px; 
+    border-radius:50%;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.3em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote h3 {
+  display: inline;
+}
+
+.fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+/*  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }*/
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+/*  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }*/
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:2000px){
+    .heading h1{
+        font-size: 130px;
+    }
+    .coe h3{
+        line-height: 40px;
+    }
+@media screen and (max-width:1700px){
+    .heading h1{
+        font-size: 120px;
+    }
+    .coe h3{
+        line-height: 30px;
+    }
+@media screen and (max-width:1300px){
+    .heading h1{
+        font-size: 110px;  
+    }
+    .coe h3{
+        line-height: 25px;
+    }
+}
+
+@media screen and (max-width:1200px){
+    .heading h1{
+        font-size: 100px;
+    }
+
+}
+@media screen and (max-width:900px){
+    .heading h1{
+        font-size: 100px;
+    }
+
+}
+@media screen and (max-width:700px){
+    .heading h1{
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .heading h1{
+        font-size: 40px;
+    }
+    .heading h3{
+        font-size: 20px;
+    }
+    .coe h1{
+        font-size: 18px;
+    }
+    .button1{
+        padding: 8px 8px;
+    }
+
+}}}
